@@ -1,10 +1,13 @@
 .cardContainer{
     width: 100%;
-    border: 1px solid rgb(214, 213, 213);
+    border: 1px solid rebeccapurple;
     border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    background: white;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    background: #fff;
+    font-style:normal;
+    /* font-family: "Gill Sans", sans-serif; */
 }
 
 .cardContainer > *{
@@ -17,14 +20,15 @@
     bottom: 0;
     width: 10px;
     height: 10px;
-    background: silver;
+  background: whitesmoke;
     border-radius: 50%;
 }
 
 .cardTags{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .tags{
@@ -32,4 +36,7 @@
     padding: 2px 8px;
     border-radius: 5px;
     border: 1px solid silver;
+    color:fuchsia;
+    font-weight: 100;
+    font-style: normal;
 }
